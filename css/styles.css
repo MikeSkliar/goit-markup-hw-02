@@ -4,16 +4,13 @@
 .link {
   text-decoration: none;
 }
-/* Header */
+/* ========================HEADER============ */
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
   color: #2e2f42;
 }
 .contact-emai-address,
@@ -23,10 +20,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-
-  /* SLATE */
   color: #434455;
 }
 .first-part-logo {
@@ -34,13 +28,10 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  /* identical to box height, or 133% */
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
   color: #4d5ae5;
 }
 
@@ -49,7 +40,6 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  /* identical to box height, or 133% */
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -68,5 +58,33 @@
 .contact-phone-number:focus {
   color: #404bbf;
 }
-/* HEADER END */
-/* HERO BLOCK */
+
+/* ========================/HEADER============ */
+/* =========================HERO BLOCK======== */
+.hero-promo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* color: #ffffff; */
+}
+.order-service-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/* =========================/HERO BLOCK======== */
