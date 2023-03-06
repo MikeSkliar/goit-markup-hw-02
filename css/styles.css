@@ -148,3 +148,12 @@ body {
   color: #434455;
 }
 /*==========================/OUR TEAM SECTION====== */
+/*==========================FOOTER====== */
+.why-choose-us {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/*==========================/FOOTER====== */
