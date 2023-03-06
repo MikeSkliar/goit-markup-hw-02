@@ -88,3 +88,63 @@ body {
   cursor: pointer;
 }
 /* =========================/HERO BLOCK======== */
+/* =========================OUR UNICS SECTION======= */
+.our-unics {
+  color: #ffffff;
+}
+.advantage {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.adavantage-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* =========================/OUR UNICS SECTION======= */
+/*==========================WHAT ARE WE DOING SECTION====== */
+
+.project-examples {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/*==========================/WHAT ARE WE DOING SECTION====== */
+
+/*==========================OUR TEAM SECTION====== */
+.oue-team-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.employee-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*==========================/OUR TEAM SECTION====== */
