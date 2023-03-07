@@ -7,6 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 /* ========================HEADER============ */
 .menu-link {
@@ -16,8 +17,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contact-emai-address,
-.contact-phone-number {
+.contact-information {
+  font-style: normal;
+}
+.contact-email-phone {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -29,7 +32,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -41,13 +44,11 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* NAVY BLUE */
   color: #2e2f42;
 }
 .menu-link:hover,
@@ -63,16 +64,25 @@ body {
 
 /* ========================/HEADER============ */
 /* =========================HERO BLOCK======== */
+
+.hero {
+  /* position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px; */
+  background: #2e2f42;
+}
 .hero-promo {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .order-service-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -81,6 +91,7 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -104,7 +115,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* =========================/OUR UNICS SECTION======= */
 /*==========================WHAT ARE WE DOING SECTION====== */
@@ -145,15 +155,29 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /*==========================/OUR TEAM SECTION====== */
 /*==========================FOOTER====== */
+.footer {
+  background: #2e2f42;
+}
 .why-choose-us {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+
+.second-part-logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 /*==========================/FOOTER====== */
